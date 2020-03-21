@@ -4,26 +4,20 @@ div.top-container {
   padding-top: 100px;
 }
 
-div.mid-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-}
-
-div.bottom-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-}
-
 body {
-  margin: 0;
   text-align: center;
+  margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
   margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
 }
 
 .top-cloud {
@@ -34,4 +28,12 @@ h1 {
 
 .bottom-cloud {
   position: absolute;
+}
+
+.skill-img {
+  width: 10vw;
+}
+
+.underlined-text {
+  text-decoration: underline;
 }
