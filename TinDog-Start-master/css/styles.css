@@ -10,15 +10,21 @@ body {
   height: 80vh;
 }
 
-#title h1 {
+h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -48,8 +54,8 @@ body {
 .iphone-mockup {
   width: 55%;
   transform: rotate(25deg);
-  position: relative;
-  top: 5vh;
+  position: absolute;
+  right: 30%;
 }
 
 /* Download Buttons */
@@ -61,7 +67,11 @@ body {
 
 #features {
   text-align: center;
-  margin: 15vh auto 0 auto;
+  padding-top: 15vh;
+
+  background-color: #fff;
+  /* the position setting will help this section cover the iphone-mockup: because positioned element will stack on top, and now we're making both positioned, so the previous one is on bottom*/
+  position: relative;
 }
 
 #features h3 {
@@ -90,4 +100,46 @@ body {
 .feature-element .fas:hover {
   color: #ff4c68;
   transition: 0.5s ease;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
 }
