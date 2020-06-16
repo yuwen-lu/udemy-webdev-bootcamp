@@ -7,7 +7,6 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
-  height: 80vh;
 }
 
 h1 {
@@ -142,4 +141,45 @@ h2 {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+    display: block;
+    margin: auto;
+  }
+
+  .title-content {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 6% 15% 4%;
+  text-align: center;
+}
+
+#cta h3 {
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 7%;
+}
+
+#footer p {
+  color: #535353;
+  font-weight: 500;
+}
+
+#footer i {
+  margin: 2rem 0.8rem;
 }
